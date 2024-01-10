@@ -11,7 +11,7 @@ const agregarSospechoso = () =>{
 };
 
 const verPerfil = (sospechosos) => {
-    htmlElements.paginasNotas.innerHTML = "";
+    htmlElements.paginasNotas.innerHTML = "aa";
     console.log(sospechosos);
 
     sospechosos.forEach((perfil) => {
@@ -20,9 +20,7 @@ const verPerfil = (sospechosos) => {
         archivo.innerHTML = ` <p class="${perfil.tachado ? "text-decoration-line-through" : "align-self-end"}">${perfil.data}</p>`;
         let btnContenedor = document.createElement("div");
         archivo.appendChild(btnContenedor);
-        let btnEliminar = crearBoton("Elimina", "btn", "btn-danger", "ms-2");
-        btnEliminar.onclick = () => eliminarPerfil(perfil.id);
-        btnContenedor.appendChild(btnEliminar);
+
 
         let btnTachado = crearBoton(
             `${perfil.tachado ? "Cancelar" : "Tachar"}`,
@@ -36,7 +34,13 @@ const verPerfil = (sospechosos) => {
         htmlElements.paginasNotas.appendChild(archivo);
     });
 }
+const cambiarEstadoPerfil = (idPerfil) => {
+    let index = sospechosos.findIndex((perfil) => perfil.id === idPerfil);
+    sospechosos[index].tachado = !sospechosos[index].tachado;
+    localStorage.setItem("sospechosos", JSON.stringify(sospechosos));
 
+    verPerfil(sospechosos);
+};
 
 
 
@@ -45,6 +49,7 @@ const verPerfil = (sospechosos) => {
 export default {
     sospechosos,
     agregarSospechoso,
-    verPerfil
+    verPerfil,
+    cambiarEstadoPerfil
 };
 

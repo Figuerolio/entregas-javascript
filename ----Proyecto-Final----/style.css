@@ -1,0 +1,28 @@
+body{
+  background-color: #d5aad855;
+}
+#filtroPlatos{
+  background-color: #7e42ffd5;
+}
+
+h1{ 
+  font-family: 'Young Serif', serif;
+  text-decoration: underline;
+  padding-top: 2rem;
+  color: aliceblue;
+}
+img{
+  width:10rem ;
+  height: 10rem;
+  border-radius: 2.5rem;
+}
+#titulo{
+  background-image:url(https://www.cucinare.tv/wp-content/uploads/2022/10/cocina-nordica.jpg) ;
+  height:7rem ;
+  width:100%;
+  background-position: center;
+  background-size: cover;
+}
+#texto-centro{
+  padding-bottom: 2rem;
+}

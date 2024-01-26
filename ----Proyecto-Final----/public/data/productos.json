@@ -1,0 +1,14 @@
+[
+    {"id":1, "nombre":"Kongekrabbe", "precio":1000, "imagen":"https://i.pinimg.com/736x/4d/01/a5/4d01a5ccb388a1e4d1cd6c3c5eec1f6f.jpg", "noruego":true},
+    {"id":1, "nombre":"Sjøkreps", "precio":1000, "imagen":"https://assets.simpleviewcms.com/simpleview/image/upload/c_fill,g_xy_center,h_1440,w_1920,x_1000,y_500/f_avif/q_65/v1/clients/norway/image1_7086092e-b342-4159-8800-60d2dab4dff4.jpg?_a=BATCtdAA0", "noruego":true},
+    {"id":1, "nombre":"Skrei", "precio":1000, "imagen":"https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/03/22/bacalao-skrei.jpeg", "noruego":true},
+    {"id":1, "nombre":"Lefse", "precio":1000, "imagen":"https://res.cloudinary.com/simpleview/image/upload/v1611145313/clients/norway/Lefseruller_credit_matprat_no_Sara_Johannessen_ac742b89-a401-4a5b-a0c6-60284c612727.jpg", "noruego":true},
+    {"id":1, "nombre":"Geitost", "precio":1000, "imagen":"https://www.mundoquesos.com/wp-content/uploads/2020/07/Gjetost.jpg", "noruego":true},
+    {"id":1, "nombre":"Blåskjell", "precio":1000, "imagen":"https://assets.simpleviewcms.com/simpleview/image/upload/c_fill,h_1440,w_1920/f_avif/q_65/v1/clients/norway/Hvitvinsdampede_blaskjell_MP_00506_Foto_Mari_Svenningsen_41cf6cc1_be8b_4055_8221_4325ce8cbeb6_6ac423c0-bf28-4bfd-91e8-8c8b01299f5a.jpg?_a=BATCtdAA0", "noruego":true},
+    {"id":1, "nombre":"Wantán", "precio":1000, "imagen":"https://upload.wikimedia.org/wikipedia/commons/1/15/Sopa_wantan.JPG", "noruego":false},
+    {"id":1, "nombre":"Zongzi", "precio":1000, "imagen":"https://upload.wikimedia.org/wikipedia/commons/4/42/Zongzi.jpg", "noruego":true},
+    {"id":1, "nombre":"Jiaozi", "precio":1000, "imagen":"https://www.carolinescooking.com/wp-content/uploads/2022/03/vegetable-dumplings-jiaozi-featured-pic-sq.jpg", "noruego":true},
+    {"id":1, "nombre":"Wan Tan Mee", "precio":1000, "imagen":"https://rasamalaysia.com/wp-content/uploads/2012/07/wonton-noodles-thumb.jpg", "noruego":true},
+    {"id":1, "nombre":"Kung Pao", "precio":1000, "imagen":"https://images.getrecipekit.com/20220607202642-kung-pao-chicken-11.jpg?class=16x9", "noruego":true},
+    {"id":1, "nombre":"Chow Mein", "precio":1000, "imagen":"https://tastesbetterfromscratch.com/wp-content/uploads/2023/10/Chow-Mein-1.jpg", "noruego":true}
+]

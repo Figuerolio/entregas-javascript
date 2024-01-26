@@ -8,9 +8,33 @@
     <title>Vite App</title>
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+          <div class="text-center">
+              <h1>Lista de Sospechosos</h1>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col">
+              <form id="formSospecha" class="d-flex">
+                  <input id="inputSospecha" class="form-control" type="text">
+                  <input class="ms-3 btn btn-primary" type="submit" value="Agregar">
+              </form>
+          </div>
+      </div>
+      <div id="sospechososContainer">
+
+      </div>
+      <div class="d-flex mt-3 justify-content-between align-items-center ">
+          <p class="align-self-end text-decoration-line-through">Sospechosos</p>
+          <div>
+              <button class="btn btn-danger ms-2">Inocente</button>
+              <button class="btn btn-success ms-2">Culpable</button>
+              <button class="btn btn-success ms-2">Complice</button>
+          </div>
+      </div>
     
     
-    
-    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/entrega-3.js"></script>
   </body>
 </html>

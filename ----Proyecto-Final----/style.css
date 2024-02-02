@@ -4,7 +4,15 @@ body{
 #filtroPlatos{
   background-color: #7e42ffd5;
 }
-
+.col{
+  background-color: rgba(43, 255, 0, 0.094);
+  border-radius: 2rem;
+  margin: 1rem;
+}
+.ol{
+  background-color: burlywood;
+  border-radius: 2rem;
+}
 h1{ 
   font-family: 'Young Serif', serif;
   text-decoration: underline;
